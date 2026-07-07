@@ -522,7 +522,7 @@ function applyMapping(rows: Record<string, unknown>[], mapping: ColumnMapping): 
 /* ============================================================
    SHARED UI PRIMITIVES
    ============================================================ */
-type IconComponent = React.ComponentType<{ size?: number; color?: string; className?: string }>;
+type IconComponent = React.ComponentType<{ size?: string | number; color?: string; className?: string }>;
 
 interface SheetProps {
   title: string;
